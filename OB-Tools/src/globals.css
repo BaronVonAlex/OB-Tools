@@ -20,10 +20,6 @@
     @apply text-[36px] font-bold leading-[140%] tracking-tighter;
   }
 
-  .bg-dark-1 {
-    background-color: #333; /* Replace with your desired color */
-  }
-
   .h1-semibold {
     @apply text-[36px] font-semibold leading-[140%] tracking-tighter;
   }

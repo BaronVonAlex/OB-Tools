@@ -1,5 +1,5 @@
 import AuthLayout from './_auth/AuthLayout';
-import SignUpform from './_auth/forms/SignUpform';
+import SignUpform from './_auth/forms/Signupform';
 import SigninForm from './_auth/forms/SigninForm';
 import RootLayout from './_root/RootLayout';
 
@@ -14,7 +14,7 @@ const App = () => {
             {/* {public routes} */}
             <Route element={<AuthLayout />}>
               <Route path="/sign-in" element={<SigninForm />}> </Route>
-              <Route path="/sign-in" element={<SignUpform />}> </Route>
+              <Route path="/sign-up" element={<SignUpform />}> </Route>
             </Route>
 
             {/* {private routes} */}
